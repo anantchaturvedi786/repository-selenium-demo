@@ -1,5 +1,4 @@
 import java.time.Duration;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -16,7 +15,6 @@ public class amazonproductsearch {
 	private WebDriver driver;
 	
 	@BeforeClass
-	
 	public void setUp() {
         System.setProperty("webdriver.chrome.driver", "/Users/chatu/OneDrive/Desktop/chromedriver-win64/chromedriver.exe");
         driver = new ChromeDriver();
